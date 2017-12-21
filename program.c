@@ -7,9 +7,18 @@ int main(int argc, char* argv[]){
     const int N=5;
     char* list[]={
         "tar -zxvf", ".tar.gz",
+        "tar -zxvf", ".tgz",
+        "gunzip", ".gz",
+        "tar -Zxvf", ".tar.Z",
+        "tar -Zxvf", ".taz",
+        "gunzip", ".Z",
         "tar -jxvf", ".tar.bz2",
+        "tar -jxvf", ".tbz2",
+        "bunzip2", ".bz2",
         "tar -Jxvf", ".tar.xz",
         "tar -xvf", ".tar",
+        "lha x", ".lha",
+        "lha x", ".lzh",
         "unzip", ".zip"};
 
     if(argc<2 || argc>2){
