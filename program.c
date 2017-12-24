@@ -4,7 +4,7 @@
 
 int main(int argc, char* argv[]){
     int i;
-    const int N=5;
+    const int N=14;
     char* list[]={
         "tar -zxvf", ".tar.gz",
         "tar -zxvf", ".tgz",
