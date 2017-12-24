@@ -50,7 +50,6 @@ int main(int argc, char* argv[]){
     *cp++=' ';
     strcpy(cp, argv[1]);
 
-    system("echo $PATH");
     printf("%s\n", command);
     system(command);
     return 0;
